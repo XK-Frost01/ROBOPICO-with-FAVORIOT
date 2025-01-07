@@ -19,3 +19,90 @@ This project leverages the Robo Pico board, integrated with the Raspberry Pi Pic
   * The project emphasizes the seamless integration of the Robo Pico board with FAVORIOT for IoT functionality.
 
 By focusing on MQTT as the sole communication protocol, this project highlights how real-time data exchange and device control can be achieved efficiently using the Robo Pico board and FAVORIOT platform.
+
+<p align="center"><img src="https://github.com/XK-Frost01/Hibiscus-Sense-with-FAVORIOT/blob/main/Reference/PROJECT%20SETUP.png" width="900"></p>
+<br>
+
+## PROJECT SETUP
+
+### Step 1: Installing CircuitPython firmware
+
+* To install [CircuitPython](https://circuitpython.org/downloads), visit the official website and download the latest version:
+
+```URL
+https://circuitpython.org/downloads
+```
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_1.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_2.png" width="900"></p>
+
+> It is recommended to download the latest version of CircuitPython firmware for smoother library configuration and compatibility
+
+* Next, visit the [CircuitPython Library](https://circuitpython.org/libraries) page to download the appropriate Python libraries:
+
+```URL
+https://circuitpython.org/libraries
+```
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_3.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_4.png" width="900"></p>
+ 
+ > Download the CircuitPython library bundle that matches the firmware version. For example, if the latest firmware version is 9.x, ensure you download the 9.x library bundle.
+ 
+* Next, navigate back to the download page and click the following [link](https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython) to proceed to the next step.
+* Download  flash resetting file to deep clean the Pico's RP1-RP2 (D:) drive
+```URL
+https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython
+```
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_5.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_6.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_7.png" width="900"></p>
+
+> note that, sometime resetting the Pico driver or changing firmware can be resulting to Pico not working as expected. So it recommended that, deep clean is done everytime you want to change the firmware
+
+### Step 2: Install Mu editor
+
+### Step 3: setup favoriot platform
+
+ * This project integrate the use if ESP32 sensor with [FAVORIOT platform](https://platform.favoriot.com/login)
+ * to open favoriot platform, you can search:
+
+```URL
+https://platform.favoriot.com/login
+```
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FAVORIOT_1.png" width="900"></p>
+
+ * For a beginner-friendly tutorial on getting started with the FAVORIOT platform and creating a device for your project, refer to the link provided below:
+
+```URL
+https://www.youtube.com/playlist?list=PLeB7L9fw2CnIrfLRYK42tPN2LJohwfGtu
+```
+
+> You can go through vedio 1 to 5 and decide on how to setup your project in FAVORIOT platform
+
+ * or you can refer to FAVORIOT recources tab:
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FAVORIOT_2.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FAVORIOT_3.png" width="900"></p>
+<br><br>
+
+### Step 4: Pico's RP1-RP2(D:) Disk setup
+
+* Open the RP1-RP2(D:) drive on your Pico by holding the BOOTSEL button while connecting the USB cable to your laptop.
+
+GAMBAR8
+
+* then, transfer all the file in sequence into pico (D:) as below:
+    * flash_nuke.uf2
+    * adafruit-circuitpython-raspberry_pi_pico_w-en_US-9.2.0.uf2
+
+GAMBAR9
+
+> note that the only one uf2 file can be inserted at a time.
+
+
+### Step 5: plug in RoboPico
+
+### Step 6: Uploading code inside CIRCUITPY(D:)
