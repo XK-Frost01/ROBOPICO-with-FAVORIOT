@@ -77,7 +77,7 @@ https://codewith.mu/
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_3.png" width="900"></p>
 <br><br>
 
-### Step 4: Pico's RP1-RP2(D:) Disk setup
+### Step 3: Pico's RP1-RP2(D:) Disk setup
 
 * Open the RP1-RP2(D:) drive on your Pico by holding the BOOTSEL button while connecting the USB cable to your laptop.
 
@@ -93,11 +93,13 @@ https://codewith.mu/
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/NUKE%20transfer.gif" width="900"></a></p>
 
 > 'drag and drop' flash_nuke.uf2 file into RP1-RP2(D:)
+
 <br>
 
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FIRMWARE%20transfer.gif" width="900"></a></p>
 
 > 'drag and drop' circuitpython firmware into RP1-RP2(D:)
+
 <br>
 
 * after finish you can unplug it and attach it to robopico board
@@ -105,7 +107,7 @@ https://codewith.mu/
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/plug%20in.jpeg" width="500"></p>
 <br><br>
 
-### Step 3: setup favoriot platform
+### Step 4: setup favoriot platform
 
  * This project integrate the use if robopico with [FAVORIOT platform](https://platform.favoriot.com/login)
  * to open favoriot platform, you can search:
@@ -130,7 +132,7 @@ https://www.youtube.com/playlist?list=PLeB7L9fw2CnIrfLRYK42tPN2LJohwfGtu
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FAVORIOT_3.png" width="900"></p>
 <br><br>
 
-### Step 6: Uploading code inside CIRCUITPY(D:)
+### Step 5: Uploading code inside CIRCUITPY(D:)
 
 * After completing the device setup within the FAVORIOT platform for the Raspberry Pi Pico WH, launch the Mu Editor application
 
@@ -161,11 +163,15 @@ https://www.youtube.com/playlist?list=PLeB7L9fw2CnIrfLRYK42tPN2LJohwfGtu
 * Therefore, select only the necessary libraries and transfer them to CIRCUITPY (D:) > lib by either dragging and dropping or copy-pasting.
 
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_7.png" width="500"></p>
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_8.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_8.png" width="500"></p>
 
 <br><br>
 
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/LIB%20transfer.gif" width="900"></a></p>
+
+> repeat the process until there is no error
+
+<br><br>
 
 * when, the library is added the code will rerun by itself
 
