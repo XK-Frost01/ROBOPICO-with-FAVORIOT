@@ -58,9 +58,11 @@ https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpyth
 
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_5.png" width="900"></p>
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_6.png" width="900"></p>
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_7.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_7.png" width="500"></p>
 
 > note that, sometime resetting the Pico driver or changing firmware can be resulting to Pico not working as expected. So it recommended that, deep clean is done everytime you want to change the firmware
+
+<br><br>
 
 ### Step 2: Install Mu editor
 
@@ -73,29 +75,34 @@ https://codewith.mu/
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_1.png" width="900"></p>
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_2.png" width="900"></p>
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_3.png" width="900"></p>
+<br><br>
 
 ### Step 4: Pico's RP1-RP2(D:) Disk setup
 
 * Open the RP1-RP2(D:) drive on your Pico by holding the BOOTSEL button while connecting the USB cable to your laptop.
 
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_8.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_8.png" width="500"></p>
 
 * then, transfer all the file in sequence into pico (D:) as below:
     * flash_nuke.uf2
     * adafruit-circuitpython-raspberry_pi_pico_w-en_US-9.2.0.uf2
 
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_10.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_10.png" width="500"></p>
+<br>
+
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/NUKE%20transfer.gif" width="900"></a></p>
 
 > 'drag and drop' flash_nuke.uf2 file into RP1-RP2(D:)
+<br>
 
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FIRMWARE%20transfer.gif" width="900"></a></p>
 
 > 'drag and drop' circuitpython firmware into RP1-RP2(D:)
+<br>
 
 * after finish you can unplug it and attach it to robopico board
 
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/plug%20in.jpeg" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/plug%20in.jpeg" width="500"></p>
 <br><br>
 
 ### Step 3: setup favoriot platform
@@ -153,9 +160,18 @@ https://www.youtube.com/playlist?list=PLeB7L9fw2CnIrfLRYK42tPN2LJohwfGtu
 * Note that the library bundle folder is too large to fit in the CIRCUITPY (D:) memory.
 * Therefore, select only the necessary libraries and transfer them to CIRCUITPY (D:) > lib by either dragging and dropping or copy-pasting.
 
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_7.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_7.png" width="500"></p>
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_8.png" width="900"></p>
+
+<br><br>
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/LIB%20transfer.gif" width="900"></a></p>
 
 * when, the library is added the code will rerun by itself
 
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_9.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/run%20pico_9.png" width="500"></p>
+
+ * then you can refer favoriot data stream to see if there is data entering
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FAVORIOT_4.png" width="900"></p>
+<br><br>
