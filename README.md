@@ -110,7 +110,7 @@ https://www.youtube.com/playlist?list=PLeB7L9fw2CnIrfLRYK42tPN2LJohwfGtu
 
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_9.png" width="900"></p>
 <p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_10.png" width="900"></p>
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/NUKE%20transfer.gif" width="900"></p>
-<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FIRMWARE%20transfer.gif" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/NUKE%20transfer.gif" width="900"></a></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FIRMWARE%20transfer.gif" width="900"></a></p>
 
 > note that the only one uf2 file can be inserted at a time.
