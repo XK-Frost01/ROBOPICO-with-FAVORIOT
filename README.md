@@ -63,9 +63,19 @@ https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpyth
 
 ### Step 2: Install Mu editor
 
+* Once all the CircuitPython libraries are installed, download and install the [Mu editor](https://codewith.mu/)
+
+```URL
+https://codewith.mu/
+```
+
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_1.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_2.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/mu%20editor_3.png" width="900"></p>
+
 ### Step 3: setup favoriot platform
 
- * This project integrate the use if ESP32 sensor with [FAVORIOT platform](https://platform.favoriot.com/login)
+ * This project integrate the use if robopico with [FAVORIOT platform](https://platform.favoriot.com/login)
  * to open favoriot platform, you can search:
 
 ```URL
@@ -92,17 +102,15 @@ https://www.youtube.com/playlist?list=PLeB7L9fw2CnIrfLRYK42tPN2LJohwfGtu
 
 * Open the RP1-RP2(D:) drive on your Pico by holding the BOOTSEL button while connecting the USB cable to your laptop.
 
-GAMBAR8
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_8.png" width="900"></p>
 
 * then, transfer all the file in sequence into pico (D:) as below:
     * flash_nuke.uf2
     * adafruit-circuitpython-raspberry_pi_pico_w-en_US-9.2.0.uf2
 
-GAMBAR9
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_9.png" width="900"></p>
+<p align="center"><img src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/circuit%20python_10.png" width="900"></p>
+<p align="center"><vid src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/NUKE%20transfer.gif" width="900"></p>
+<p align="center"><vid src="https://github.com/XK-Frost01/ROBOPICO-with-FAVORIOT/blob/main/Reference(R)/FIRMWARE%20transfer.gif" width="900"></p>
 
 > note that the only one uf2 file can be inserted at a time.
-
-
-### Step 5: plug in RoboPico
-
-### Step 6: Uploading code inside CIRCUITPY(D:)
